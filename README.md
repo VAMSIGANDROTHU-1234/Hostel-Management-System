@@ -1,3 +1,4 @@
+<img width="1376" height="768" alt="hostelsphere_saas_cover_1788602558333" src="https://github.com/user-attachments/assets/47aa437f-6355-4480-8ad3-78d35dc940d9" />
 # 🏢 HostelSphere SaaS — Enterprise Hostel & PG Management System
 
 [![React](https://img.shields.io/badge/React-18.x-blue.svg?logo=react)](https://reactjs.org/)
