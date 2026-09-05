@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://api.iconify.design/lucide:building.svg?color=%23dc2626" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HostelSphere - Premium Luxury Red Edition</title>
+    <meta name="description" content="Production-ready Hostel and PG Management SaaS platform with dual role portals, real-time occupancy tracking, bed management, and online payment integrations." />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS v3 CDN with Crimson Red Design Tokens -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              crimson: {
+                50: '#fff1f2',
+                100: '#ffe4e6',
+                200: '#fecdd3',
+                300: '#fda4af',
+                400: '#fb7185',
+                500: '#f43f5e',
+                600: '#e11d48',
+                700: '#be123c',
+                800: '#9f1239',
+                900: '#881337',
+                950: '#4c0519',
+              },
+              charcoal: {
+                800: '#18181b',
+                900: '#121215',
+                950: '#09090b',
+              }
+            },
+            boxShadow: {
+              'glow-red': '0 0 25px -5px rgba(220, 38, 38, 0.4)',
+              'glow-red-lg': '0 0 35px -5px rgba(220, 38, 38, 0.6)',
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-slate-50 dark:bg-charcoal-950 text-slate-900 dark:text-slate-100 font-sans antialiased selection:bg-red-600 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
